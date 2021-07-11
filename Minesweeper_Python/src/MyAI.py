@@ -41,16 +41,14 @@ class MyAI( AI ):
 		#							YOUR CODE BEGINS						   #
 		########################################################################
 
-
 		if number == 0:
-			self.w[self.startY][self.startX] = number
-            for y in range(len(self.w)):
+			self.w[self.startY-1][self.startX-1] = number
+			for y in range(len(self.w)):
 				l = ""
 				for x in range(len(self.w[y])):
 					l = l + str(self.w[y][x]) + " "
 				print(l)
-            print(startX,startY)
-			# return
+			print(self.startX,self.startY)
   
   
   
