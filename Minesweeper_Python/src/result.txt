@@ -1,4 +1,4 @@
-easy: 1000
+easy: 522
 medium: 0
 expert: 0
-score: 1000
+score: 522
