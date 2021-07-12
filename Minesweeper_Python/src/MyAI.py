@@ -33,7 +33,7 @@ class MyAI( AI ):
 		# print("Total Mines:",totalMines)
 		# print("Start:", self.currentX, self.currentY)
   
-		self.w = [["-" for i in range(rowDimension)] for j in range(colDimension)]
+		self.w = [["-" for i in range(colDimension)] for j in range(rowDimension)]
 
 		self.to_flaged = list()
 		self.to_uncover = list()
