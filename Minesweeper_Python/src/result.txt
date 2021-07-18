@@ -1,4 +1,4 @@
-easy: 528
-medium: 415
+easy: 557
+medium: 430
 expert: 20
-score: 1418
+score: 1477
