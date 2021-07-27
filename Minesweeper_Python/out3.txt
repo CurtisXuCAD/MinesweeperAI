@@ -1,0 +1,4 @@
+easy: 746
+medium: 713
+expert: 160
+score: 2652

@@ -99,8 +99,8 @@ class World():
 				if self.__checkValidAction(action):
 					if self.__doMove(action):
 						break
-			except ValueError:
-				print("Error: Invalid action!")
+			# except ValueError:
+				# print("Error: Invalid action!")
 			except IndexError:
 				print("Error: Move is out of bounds!")
 

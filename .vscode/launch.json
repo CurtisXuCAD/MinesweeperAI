@@ -10,9 +10,11 @@
             "request": "launch",
             "program": "${file}",
             "args": [
-                "-f",
-                "~/GitHub/MinesweeperAI/WorldGenerator/Problems",
-                "-d"
+                // "-f",
+                // "~/GitHub/MinesweeperAI/WorldGenerator/Problems",
+                // "~/GitHub/MinesweeperAI/Minesweeper_Python/out4.txt"
+                // "-d"
+                "5"
             ],
             "console": "integratedTerminal"
         }
