@@ -290,7 +290,9 @@ class MyAI( AI ):
 
 	# 	return flaged_coords
 					
-
+	# def search(self,covered_coords: int):
+		
+     
 
 
 
